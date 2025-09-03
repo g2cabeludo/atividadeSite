@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.black{
+    background-color: black;
+    color: white;
+}
+.logo{
+    background-color: pink;
+    font-size: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
