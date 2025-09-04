@@ -2,6 +2,8 @@
 
 header{
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .black{
@@ -15,12 +17,15 @@ header{
 }
 
 .black p{
-    margin: 20px;
+    margin: 0;
+    margin: 14px;
 }
 
 .icon{
+    display: flex;
     width: 20%;
     text-align: left;
+    align-items: center;
 }
 
 .icon i{
@@ -28,14 +33,33 @@ header{
 }
 
 .pink{
+    height: 100px;
     width: 100%;
+    background-color: rgb(248, 192, 201);
+}
+
+.flexx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
 }
 
 .logo{
-    background-color: pink;
-    font-size: 50px;
-    width: 100%;
+   height: 50px;
+   width: 60px;
+   margin-left: 40px;
 }
+
+.nav{
+    position: absolute;
+    right: 50%;
+    text-align: center;
+    transform: translateX(50%);
+}
+
+
 
 *{
     margin: 0;
