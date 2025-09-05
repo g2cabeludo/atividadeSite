@@ -1,17 +1,20 @@
 @charset "UTF-8";
 
-body {
+html,body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  height: 100%;
+  padding: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: rgb(73, 73, 73);
 }
 
 header{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .black{
@@ -21,7 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    height: 25px;
 }
 
 .black p{
@@ -31,19 +34,31 @@ header{
 
 .icon{
     display: flex;
-    width: 20%;
+    width: 15%;
     text-align: left;
     align-items: center;
 }
 
 .icon i{
-    margin-left: 10px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
 .pink{
-    height: 100px;
+    height: 90px;
     width: 100%;
     background-color: rgb(248, 192, 201);
+}
+
+.iconpink{
+    display: flex;
+    width: 12.9%;
+    text-align: left;
+    align-items: center;
+}
+
+.iconpink i{
+    margin-left: 30px;
 }
 
 .flexx{
@@ -61,6 +76,7 @@ header{
 }
 
 .nav{
+    word-spacing: 30px;
     position: absolute;
     right: 50%;
     text-align: center;
@@ -88,13 +104,14 @@ section{
     display: flex;
     width: 100%;
     height: 500px;
+    background-color: white;
 }
 
 .text{
     width: 50%;
-    height: 500px;
+    height: 250px;
     text-align: left;
-    padding: 160px 50px 50px 50px;
+    padding: 130px 50px 0px 50px;
 }
 
 .text > p{
@@ -116,20 +133,24 @@ section{
 }
 
 .imagemmulher{
+    height: 420px;
 }
 
 .imagemmulher img{
-    width: 500px;
-    height: 500px;
+    width: 523px;
+    height: 423px;
 }
 
 /*footer*/
 
 footer{
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(0, 0, 0);
     height: auto;
     padding: 20px 0;
     margin-top: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 .container{
